@@ -27,7 +27,7 @@ body {
 
 .bottomList{
     background-color: white;
-    width: 400px;
+    width: 600px;
     padding: 20px;
     text-align: left;
 }
@@ -49,4 +49,11 @@ body {
     font-size: 30px;
     padding-left: 20px;
     font-weight: 100;
+}
+
+.deleteButton {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding-right: 20px;
 }
