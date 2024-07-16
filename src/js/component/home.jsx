@@ -98,7 +98,7 @@ const Home = () => {
 				</div>
 				<div id='parentItems'>{ 
 							list.map != undefined && list.map((item, index) => {
-								return <div key={index} className="itemList"><div>{item.label}</div><i className="fas fa-times" onClick={e => removeItem(item.id)}></i></div>
+								return <div key={index} className="itemList"><div>{item.label}</div><i className="fas fa-times iconX" onClick={e => removeItem(item.id)}></i></div>
 							}) 
 						}
 						{ list.length == 0 && <div className="itemList">No tasks, add a task</div>}
