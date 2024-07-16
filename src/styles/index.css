@@ -10,3 +10,43 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+body {
+    background-color: lightgray;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.tittle {
+    color: mistyrose;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.bottomList{
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    text-align: left;
+}
+
+.itemList {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    height: 50px;
+    border-bottom: mistyrose 1px solid;
+    font-size: 30px;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.input {
+    border: none;
+    font-size: 30px;
+    padding-left: 20px;
+    font-weight: 100;
+}
